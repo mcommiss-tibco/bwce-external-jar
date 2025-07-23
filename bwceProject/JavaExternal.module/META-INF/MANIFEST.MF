@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JavaExternal Module
+Bundle-SymbolicName: JavaExternal.module
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: ., external:C:\Users\marco\.m2\repository\com\tibco\ja
+ vaext\math\0.0.1-SNAPSHOT\math-0.0.1-SNAPSHOT.jar, external:C:\Users\ma
+ rco\.m2\repository\com\googlecode\soundlibs\basicplayer\3.0.0.0\basicpl
+ ayer-3.0.0.0.jar, external:C:\Users\marco\.m2\repository\com\googlecode
+ \soundlibs\mp3spi\1.9.5.4\mp3spi-1.9.5.4.jar, external:C:\Users\marco\.
+ m2\repository\com\googlecode\soundlibs\jlayer\1.0.1.4\jlayer-1.0.1.4.ja
+ r, external:C:\Users\marco\.m2\repository\junit\junit\3.8.2\junit-3.8.2
+ .jar, external:C:\Users\marco\.m2\repository\com\googlecode\soundlibs\t
+ ritonus-share\0.3.7.4\tritonus-share-0.3.7.4.jar, external:C:\Users\mar
+ co\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar
+Bundle-Vendor: TIBCO Software Inc.
+TIBCO-BW-Edition: bwcf
+TIBCO-BW-Version: 2.10.0 HF3 V67 2025-05-21
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tibco
+ .bw.palette; filter:="(name=bw.generalactivities)",com.tibco.bw.palette
+ ; filter:="(name=bw.java)"
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+Automatic-Module-Name: JavaExternal.module
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
